@@ -3,7 +3,7 @@ var express = require('express');
 
 var app = express();
 
-var port=60000
+var port=3333
 
 app.get('/bundle/bundle.js', function(req,res){
   res.sendFile(path.join(__dirname, 'dist', 'bundle', 'bundle.js'));
