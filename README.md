@@ -1,10 +1,11 @@
 # Jobs
 
+![screenshot](https://s3.eu-west-2.amazonaws.com/io1937/screenshots/jobs.png
 
 
 ## TLDR
 
-Show some jobds
+Show some jobs
 
 
 ## How do i run it?
