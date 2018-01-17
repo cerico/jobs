@@ -24,7 +24,7 @@ class App extends React.Component  {
       {path:'/about',title:"about",key:2}
       ]
     const scheme = {
-      bg: 'white',
+      bg: '#335d88',
       fg: '#253248',
       font: 'raleway'
     }
@@ -35,8 +35,8 @@ class App extends React.Component  {
         <Layout scheme={scheme} links={links}/>
           <div>
             <Switch>
-              <Route exact path="/" component={Products}/>
               <Route path="/jobs/:id" component={Product} />
+              <Route exact path="/" component={Products}/>
             </Switch>
           </div>
         </main>

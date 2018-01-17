@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 const classNames = require('classnames');
 import styles from './jobs.css';
-import Card from 'hello-cards';
+import Card from './cards';
 
 class Jobs extends React.Component  {
 
@@ -32,7 +32,7 @@ class Jobs extends React.Component  {
 }
 
 const mapStateToProps = (state) => {
-  console.log(state)
+
   return ({
       jobs: state.jobs,
     })
