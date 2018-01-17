@@ -1,6 +1,6 @@
 # Jobs
 
-![screenshot](https://s3.eu-west-2.amazonaws.com/io1937/screenshots/jobs.png
+![screenshot](https://s3.eu-west-2.amazonaws.com/io1937/screenshots/jobs.png)
 
 
 ## TLDR
