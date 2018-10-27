@@ -2,9 +2,18 @@ import React from 'react';
 
 var classNames = require('classnames');
 
+const host = window.location.host
+let url
+if (host.includes('localhost')){
+  url = `http://${host}`
+} else {
+  url = `https://${host}`
+}
+
 const WideLogo = (props) => {
     
-    var imageUrl = `https://jobs.malham.io/public/u${props.product.id}.jpg`
+    var imageUrl = `${url}/public/u${props.product.id}.jpg`
+    console.log(imageUrl)
     let useStyle
     var imgStyle = {
       backgroundImage: 'url(\'' + imageUrl + '\')',

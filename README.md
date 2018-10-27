@@ -33,7 +33,7 @@ Starts production build, runs on http://localhost:3333
 npm run deploy
 ```
 
-Pushes to DigitalOcean droplet, runs on http://jobs.malham.io
+Pushes to DigitalOcean droplet, runs on http://jobs.yesmat.es
 
 
 

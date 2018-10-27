@@ -5,7 +5,8 @@ const Footer = (props) => {
   const colourStyle = {
     // borderColor: props.product .color,
     borderStyle: 'solid',
-    borderTopWidth: '1px'
+    borderTopWidth: '1px',
+    marginTop: '5px'
   };
 
   const urlStyle = {
